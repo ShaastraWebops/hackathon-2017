@@ -1,23 +1,158 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
+<script type="text/javascript" src="../scripts/app.js"></script> 
+<body>
+<div id="home">
+<!-- Main Page contents -->
 <div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  <h1>HACKATHON</h1>
+    <h2>Innovate. Develop .Have Fun</h2>
+  <p class="info">
+Prelims on 3rd September 
   </p>
+  <p class="info">@</p>
+  <p class="info">CRC</p>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+  
 </div>
+<!-- Arrow mark on bottom of page to change on hover Link to about -->
+
+<a href="#about" class="nav-scroll">
+<img src="images/scroll_down_home_page.png" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" id="scroll_down"></a>
+
+<!-- IITM and Shaastra Logos -->
+<div id="iitlogo">
+ <a href="https://www.iitm.ac.in/" target="_blank"><img id="logo1" src="images/iitm.png">
+ </a>
+</div>
+<div id="shalogo">
+ <a href="http://shaastra.org/" target="_blank"><img id="logo2" src="images/shaastra.png">
+ </a>
+</div>
+</div>
+
+
+<!-- About tab -->
+<div id="about" class="tab">
+
+<!-- Arrow mark on top.Changes on hover Link to main-->
+<a href="#home" class="arrow nav-scroll" id="arrow1">
+<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_about_hover.png'" onmouseout="this.src='images/scroll_up.png'">
+</a>
+
+<!-- About content -->
+<div class="row">
+<div class="jumbotron col-xs-4" id="tab1">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>
+</div>
+
+<!-- Arrow on bottom of page.Changes on hover Link to faq-->
+<a href="#faq" class="arrow nav-scroll" id="arrow2">
+<img src="images/scroll_down.png" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" >
+</a>
+</div>
+
+
+
+<!-- FAQ Tab -->
+<div id="faq" class="tab">
+
+<!-- Arrow on top of page.Changes on hover Link to about -->
+<a href="#about" class="arrow nav-scroll" id="arrow1">
+<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_faq_hover.png'" onmouseout="this.src='images/scroll_up.png'">
+</a>
+
+<!-- Panel with questions -->
+<div id="panelDiv">
+ <div class="panel-group" id="accordion">
+
+
+<!-- Questtion 1 -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <span>What is Hackathon?</span></a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+
+<!-- Questtion 2 -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Collapsible Group 2</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+
+<!-- Questtion 3 -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Collapsible Group 3</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Questtion 4 -->
+ <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Collapsible Group 4</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse ">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+
+<!-- Questtion 5-->
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        Collapsible Group 5</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse ">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div> 
+
+
+<!-- Arrow mark on bottom.Changes on hover Link to schedule-->
+<a href="#schedule" class="arrow nav-scroll" id="arrow2">
+<img src="images/scroll_down.png" onmouseover="this.src='images/scroll_down_faq_hover.png'" onmouseout="this.src='images/scroll_down.png'" >
+</a>
+</div>
+</body>  

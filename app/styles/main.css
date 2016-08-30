@@ -6,7 +6,9 @@
 }
 
 body {
+  overflow: hidden;
   padding: 0;
+  margin:0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -30,11 +32,13 @@ body {
   padding-bottom: 19px;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+.contain{
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+    padding: 40px 5%;
+    
+    margin: auto;
+    height: 100%;
 }
 
 .container-narrow > hr {
@@ -42,22 +46,160 @@ body {
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
+
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.marketing h1{
+   
+  margin-top: 10%;
+  text-align: center;
 }
-.marketing p + h4 {
-  margin-top: 28px;
+.marketing h2{
+  margin-bottom: 45px;
+  margin-top: 30px;
+  text-align: center;
 }
+
+.info{
+text-align: center;
+font-size: 28px;
+padding-top: 10px;
+font-weight: lighter;
+
+}
+
+#logo1{
+  cursor: pointer;
+ position:relative;
+ padding-left: 14px;
+ padding-top: 4px;
+}
+#logo2{
+  cursor: pointer;
+ position: relative;
+ margin-left: -10px;
+ margin-top: -18px;
+}
+#iitlogo{
+  position: absolute;
+  top: 81%;
+  left: 6%;
+  width: 135px;
+  height: 135px;
+  border-radius: 8px;
+  border:3px solid  rgb(119,158,203);
+  box-sizing: border-box;
+}
+
+.nav-bg{
+  background-color: #e3e3e3;
+}
+.navbar-custom{
+  
+  margin-left: -30%;
+  margin-right: -41%;
+}
+.navbar-custom li a{
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+font-family: helvetica;
+
+}
+.nav-style .navbar-nav > li > a {
+    color:#000;
+}
+ .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus ,.navbar-nav > .active > a:active {
+    color: #ffffff !important;
+  background-color:#173e43 !important;
+  border-radius: 5px !important;
+  border:6px solid #fff !important;
+}
+
+
+
+
+
+      
+.nav-style .navbar-nav > li > a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #173e43;
+    border-radius: 15px;
+    border:6px solid #fff;
+}
+
+
+
+
+#scroll_down{
+  position: absolute;
+  top: 91%;
+  left: 47%;
+  cursor: pointer;
+  
+    }
+
+
+
+#shalogo{
+  position: absolute;
+  top: 80%;
+  right: 4%;
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  border:3px solid  rgb(119,158,203);
+  box-sizing: border-box;
+
+}
+.tab{
+  box-sizing: border-box; 
+  margin-top:60%;
+  height:   100%;
+  padding: 80px;
+}
+
+
+.jumbotron {
+  left: 26%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+ width: 40%;
+ height: 50%;
+box-sizing: border-box;
+
+
+}
+#panelDiv{
+  align-self: center;
+  padding: 5%;
+  width: auto;
+}
+
+.arrow {
+     
+     margin-left: 44%;
+     cursor: pointer;
+}
+
+#arrow1{
+  padding-top: -25%;
+}
+#arrow2{
+  top: 80%;
+}
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

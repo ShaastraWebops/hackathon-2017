@@ -8,7 +8,33 @@
  *
  * Main module of the application.
  */
-angular
+ $(document).ready(function(){
+
+  $(this).scrollTop(0);
+ });
+
+
+
+// Scroll To specified tab
+$('.nav-scroll').on('click',function(event) {
+  event.preventDefault();
+  var target = $(this).attr('href');
+  
+  $('html, body').animate({
+    scrollTop: $(target).offset().top
+  }, 800);
+});
+
+
+
+
+
+
+
+
+
+
+var app=angular
   .module('hackathon2017App', [
     'ngAnimate',
     'ngAria',
@@ -17,21 +43,34 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.router',
   ])
-  .config(function ($routeProvider) {
+  
+  app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
+      
       .otherwise({
         redirectTo: '/'
       });
   });
+
+app.directive('main',function(){
+
+return {
+
+
+  restrict:'E',
+  templateUrl:'views/main.html'
+
+
+}
+
+
+
+})
