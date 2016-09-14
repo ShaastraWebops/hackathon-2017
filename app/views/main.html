@@ -1,6 +1,7 @@
 <script type="text/javascript" src="../scripts/app.js"></script> 
-<body>
-<div id="home">
+
+
+<section id="home" class="content" >
 <!-- Main Page contents -->
 <div class="row marketing">
   <h1>HACKATHON</h1>
@@ -12,60 +13,56 @@ Prelims on 3rd October
   <p class="info">CRC</p>
 
   
+
 </div>
 <!-- Arrow mark on bottom of page to change on hover Link to about -->
-<div class="row">
+<!-- <div class="row">
 <a href="#about" class="nav-scroll">
-<img src="images/scroll_down_home_page.png" class="img-responsive" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" id="scroll_down"></a>
-
+<img src="images/scroll_down.png" class="img-responsive" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" id="scroll_down"></a>
 <!-- IITM and Shaastra Logos -->
-<div id="iitlogo">
- <a href="https://www.iitm.ac.in/" target="_blank"><img id="logo1" class="img-responsive" src="images/iitm.png">
- </a>
-</div>
-<div id="shalogo">
- <a href="http://shaastra.org/" target="_blank"><img id="logo2" class="img-responsive" src="images/shaastra.png">
- </a>
-</div>
-</div>
-</div>
 
+ <!-- <a href="https://www.iitm.ac.in/" target="_blank" class="iitlogo"><img id="logo1" class="img-responsive" src="images/iitm.png">
+ </a>
+
+
+ <a href="http://shaastra.org/" target="_blank" class="shalogo"><img id="logo2" class="img-responsive" src="images/shaastra.png">
+ </a>
+</div>
+ -->
+</section> 
 
 <!-- About tab -->
-<div id="about" class="tab">
+<div id="about" class="content">
 
 <!-- Arrow mark on top.Changes on hover Link to main-->
 <a href="#home" class="arrow nav-scroll arrow1">
-<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_about_hover.png'" onmouseout="this.src='images/scroll_up.png'">
+<img src="images/scroll_up.png">
 </a>
 
 <!-- About content -->
 <div class="row">
-<div class="jumbotron col-xs-4" >
+<div class="jumbotron col-xs-5" >
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-
 </div>
+<img src="images/Computer.png" class="col-xs-5" id="comp">
 
 </div>
 
 <!-- Arrow on bottom of page.Changes on hover Link to faq-->
 <a href="#faq" class="arrow nav-scroll arrow2">
-<img src="images/scroll_down.png" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" >
+<img src="images/scroll_down.png">
 </a>
 </div>
 
 
 
 <!-- FAQ Tab -->
-<div id="faq" class="tab faq" >
+<div id="faq" class="tab faq content" >
 
 <!-- Arrow on top of page.Changes on hover Link to about -->
 <a href="#about" class="arrow nav-scroll arrow1">
-<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_faq_hover.png'" onmouseout="this.src='images/scroll_up.png'">
+<img src="images/scroll_up.png">
 </a>
 
 <!-- Panel with questions -->
@@ -174,22 +171,22 @@ Prelims on 3rd October
 
 <!-- Arrow mark on bottom.Changes on hover Link to schedule-->
 <a href="#schedule" class="arrow nav-scroll arrow2" >
-<img src="images/scroll_down.png" onmouseover="this.src='images/scroll_down_faq_hover.png'" onmouseout="this.src='images/scroll_down.png'" >
+<img src="images/scroll_down.png">
 </a>
 </div>
 
 
 
-<div id="schedule" class="tab">
+<div id="schedule" class="tab content">
 
 <!-- Arrow mark on top.Changes on hover Link to FAQ-->
 <a href="#faq" class="arrow nav-scroll arrow1" >
-<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_schedule_hover.png'" onmouseout="this.src='images/scroll_up.png'">
+<img src="images/scroll_up.png">
 </a>
 
 <!-- About content -->
 <div class="row">
-<div class="jumbotron col-xs-4" id="tab1">
+<div class="jumbotron col-xs-4 sched" id="tab1">
 <ul class="sch">
 <li><h2>Day1</h2></li>
 <ul class="schedule">
@@ -225,7 +222,7 @@ Prelims on 3rd October
 </ul>
 </div>
 
-<div class="jumbotron col-xs-4" >
+<div class="jumbotron col-xs-4 " >
 <ul class="sch">
 <li><h2>Day2</h2></li>
 <ul class="schedule">
@@ -265,17 +262,17 @@ Prelims on 3rd October
 
 <!-- Arrow on bottom of page.Changes on hover Link to faq-->
 <a href="#regcon" class="arrow nav-scroll arrow2">
-<img src="images/scroll_down.png" onmouseover="this.src='images/scroll_down_home_hover.png'" onmouseout="this.src='images/scroll_down.png'" >
+<img src="images/scroll_down.png">
 </a>
 </div>
 
 
 
-<div id="regcon" class="tab">
+<div id="regcon" class="tab content">
 
 <!-- Arrow mark on top.Changes on hover Link to FAQ-->
 <a href="#schedule" class="arrow nav-scroll arrow1" >
-<img src="images/scroll_up.png" onmouseover="this.src='images/scroll_up_hover_last_page.png'" onmouseout="this.src='images/scroll_up.png'">
+<img src="images/scroll_up.png">
 </a>
 
 
@@ -389,4 +386,4 @@ Prelims on 3rd October
 
 
 </div>
-</body>  
+  

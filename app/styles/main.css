@@ -5,12 +5,30 @@
   padding: 0.2em 0;
 }
 
+@font-face{
+  font-family:textFont;
+  src:url('../fonts/tt0292m_.ttf');
+
+}
+*
+{
+font-family: textFont;
+}
+
 body {
   overflow:hidden;
   padding: 0;
   margin:0;
-}
 
+}
+ .content {
+    width: 100vw;
+    padding: 40px 5%;
+    border-bottom:3px solid #fff;
+    margin: auto;
+    height: 100vh;
+
+  }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -33,13 +51,10 @@ body {
   padding-bottom: 19px;
 }
 
-.contain{
-  border-bottom: 1px solid #e5e5e5;
-  width: 100%;
-    padding: 40px 5%;
-    
-    margin: auto;
-    height: 100%;
+#home{
+  background-image: url('../images/bg.JPG');
+  background-size:cover; 
+  background-repeat:no-repeat; 
 }
 
 .container-narrow > hr {
@@ -55,17 +70,19 @@ body {
 
 /* Supporting marketing content */
 .marketing h1{
-   
+  color: #fff;
   margin-top: 10%;
   text-align: center;
 }
 .marketing h2{
+    color: #fff;
   margin-bottom: 45px;
   margin-top: 30px;
   text-align: center;
 }
 
 .info{
+    color: #fff;
 text-align: center;
 font-size: 28px;
 padding-top: 10px;
@@ -75,29 +92,34 @@ font-weight: lighter;
 
 #logo1{
   cursor: pointer;
- position:relative;
- padding-left: 14px;
- padding-top: 4px;
-}
+ }
 #logo2{
   cursor: pointer;
- position: relative;
- margin-left: -10px;
- margin-top: -18px;
+
 }
-#iitlogo{
-  position: absolute;
-  top: 81%;
-  left: 6%;
-  width: 135px;
-  height: 135px;
-  border-radius: 8px;
-  border:3px solid  rgb(119,158,203);
-  box-sizing: content-box;
+.iitlogo{
+  position: relative;
+  
+  left: 76%;
+  
+}
+.shalogo{
+  position:relative;
+  top: 80%;
+  left: 90%;
+  margin-bottom: 3%;
 }
 
+#scroll_down{
+  position:relative;
+  
+  left: 47%;
+  cursor: pointer;
+  
+    }
+
 .nav-bg{
-  background-color: #e3e3e3;
+  background-color: #000;
 }
 .navbar-custom{
   
@@ -110,64 +132,47 @@ font-weight: lighter;
   padding-top: 20px;
   padding-bottom: 20px;
 font-size: 20px;
-font-weight: bold;
-font-family: helvetica;
+
 
 }
 .nav-style .navbar-nav > li > a {
-    color:#000;
+    color:#ddd;
 }
- .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus ,.navbar-nav > .active > a:active {
-    color: #ffffff !important;
-  background-color:#173e43 !important;
-  border-radius: 5px !important;
-  border:6px solid #fff !important;
+ .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus ,.navbar-nav > .active > a:visited {
+    color: #8099B4 !important;
+ background-color: #000 !important;
 }
 
-
-
-
+.active
+{       text-decoration: none;
+     color: #8099B4 !important;
+ background-color: #000 !important;
+}
 
       
 .nav-style .navbar-nav > li > a:hover {
     text-decoration: none;
-    color: #fff;
-    background-color: #173e43;
-    border-radius: 15px;
-    border:6px solid #fff;
+    color: #8099B4;
+    
+    
+}
+
+
+   
+ .navbar-nav > li > a:focus,    
+ .navbar-nav > li > a:visited,
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+        background-color: #000;    
 }
 
 
 
-
-#scroll_down{
-  position: absolute;
-  top: 91%;
-  left: 47%;
-  cursor: pointer;
-  
-    }
-
-
-
-#shalogo{
-  position: absolute;
-  top: 80%;
-  right: 4%;
-  margin-bottom: 3%;
-  width: 250px;
-  height: 150px;
-  border-radius: 8px;
-  border:3px solid  rgb(119,158,203);
-  box-sizing: content-box;
-
+#about,#faq,#schedule,#regcon{
+  background-color: #262f36;
 }
-.tab{
-  box-sizing: border-box; 
-  margin-top:60%;
-  min-height:100%;
-  padding: 4%;
-}
+
+
 
 #tab1{
 
@@ -175,39 +180,55 @@ font-family: helvetica;
 margin-left: -24%;
 }
 
+#comp{
+  position: relative;
+  left: 12%;
+  top: 10vmin;
+}
 
 .jumbotron {
-  left: 27%;
+  left: 7%;
   padding: 1%;
   margin-right: 3%;
   margin-top: 6%;
   margin-bottom: 10%;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
- width: 40%;
- height: 50%;
-box-sizing: content-box;
+  
+  box-sizing: content-box;
+  background-color: #343C46;
+  color: #ddd;
 
-
+}
+.sched{
+  position: relative;
+  left: 35vw;
+  margin-right:33vw;
 }
 .form-group{
   padding-left: 4%;
 }
 
-.panel-title >a:hover, .panel-title >a:active,.panel-title >a:visited,.panel-title >a:focus{
 
-  text-decoration: none;
+.panel-default > .panel-heading {
+  background-color:#000;
+color: #ddd;
 }
+
 
 #panelDiv{
   align-self: center;
   padding: 6%;
   width: auto;
+
 }
+
+
+
 
 .arrow {
      
-     margin-left: 44%;
+     margin-left: 47%;
      cursor: pointer;
 }
 

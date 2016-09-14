@@ -13,7 +13,8 @@
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
     "angular-ui-router": "^0.3.1",
-    "eonasdan-bootstrap-datetimepicker": "^4.17.37"
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37",
+    "jquery-validation": "^1.15.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
